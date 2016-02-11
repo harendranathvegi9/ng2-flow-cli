@@ -1,0 +1,40 @@
+{
+  "name": "ng2-flow-cli",
+  "version": "0.0.0",
+  "description": "Angular2 application\\module flow doctor",
+  "main": "index.js",
+  "bin": "index.js",
+  "dependencies": {
+    "chalk": "1.1.1",
+    "commander": "2.9.0",
+    "inquirer": "0.12.0",
+    "semver": "5.1.0",
+    "shelljs": "0.6.0",
+    "update-notifier": "0.6.3"
+  },
+  "devDependencies": {
+    "eslint-config-valorsoft": "0.0.8"
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "postversion": "git push origin master && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valor-software/ng2-flow-cli.git"
+  },
+  "keywords": [
+    "angular2",
+    "doctor"
+  ],
+  "author": "Dmitriy Shekhovtsov <valorkin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valor-software/ng2-flow-cli/issues"
+  },
+  "homepage": "https://github.com/valor-software/ng2-flow-cli#readme",
+  "engines": {
+    "node": ">=4.4.0",
+    "npm": ">=3.8.1"
+  }
+}
