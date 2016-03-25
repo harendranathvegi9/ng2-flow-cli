@@ -22,9 +22,7 @@ program
   .option('-q, --quiet', 'quiet')
   .description('initialize target directory as angular2 module')
   .action((folder, options)=> {
-    console.log(folder);
-    console.log(options.q);
-    console.log(program.q);
+    require('./rules/002-check-folder').run({folder});
   });
 
 
